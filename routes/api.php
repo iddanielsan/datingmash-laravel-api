@@ -19,5 +19,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('/testando', function () {
-    return response()->json([], 200);
+    dd("Hello World");
 });
